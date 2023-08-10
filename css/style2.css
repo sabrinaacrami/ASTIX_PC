@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #1d1c1c;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.6rem ;
+  margin: 0 8rem;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 520px) {
+  body{
+    margin: 0 auto;
+    font-size: 1.4rem;
+  }
+}
